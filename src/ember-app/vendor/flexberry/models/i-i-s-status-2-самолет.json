@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISStatus_2Самолет",
+  "modelName": "i-i-s-status-2-самолет",
+  "className": "Самолет",
+  "nameSpace": "IIS.Status_2",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "назв",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "продажа",
+      "type": "i-i-s-status-2-статус",
+      "flexberryType": "Статус",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СамолетE",
+      "modelName": "i-i-s-status-2-самолет",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "продажа",
+          "caption": "Продажа",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СамолетL",
+      "modelName": "i-i-s-status-2-самолет",
+      "attrs": [
+        {
+          "name": "назв",
+          "caption": "Назв",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "продажа",
+          "caption": "Продажа",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

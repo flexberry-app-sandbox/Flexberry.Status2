@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-status-2-самолет-e",
+  "editForm": "i-i-s-status-2-самолет-e",
+  "external": false,
+  "caption": "Самолет",
+  "name": "IISStatus_2СамолетL",
+  "className": "СамолетL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-status-2-самолет",
+      "modelProjection": "СамолетL"
+    }
+  ]
+}

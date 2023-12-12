@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Самолет",
+  "name": "IISStatus_2СамолетE",
+  "className": "СамолетE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-status-2-самолет",
+      "modelProjection": "СамолетE"
+    }
+  ]
+}

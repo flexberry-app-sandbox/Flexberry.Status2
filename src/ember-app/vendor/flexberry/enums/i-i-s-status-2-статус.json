@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.Status_2",
+  "className": "Статус",
+  "enumObjects": {
+    "Продан": "",
+    "Куплен": ""
+  }
+}

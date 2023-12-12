@@ -1,0 +1,22 @@
+﻿{
+  "applicationCaption": "Status_2",
+  "applicationTitle": "Status_2",
+  "items": [
+    {
+      "link": null,
+      "menuName": "status-2",
+      "caption": "Status_2",
+      "title": "Status_2",
+      "children": [
+        {
+          "link": "i-i-s-status-2-самолет-l",
+          "menuName": null,
+          "caption": "Самолет",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}
