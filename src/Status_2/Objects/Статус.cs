@@ -12,6 +12,7 @@ namespace IIS.Status_2
 {
     using System;
     using System.Xml;
+    using ICSSoft.STORMNET;
     
     
     // *** Start programmer edit section *** (Using statements)
@@ -31,11 +32,13 @@ namespace IIS.Status_2
         // *** Start programmer edit section *** (Статус.Продан CustomAttributes)
 
         // *** End programmer edit section *** (Статус.Продан CustomAttributes)
+        [Caption("Продан")]
         Продан,
         
         // *** Start programmer edit section *** (Статус.Куплен CustomAttributes)
 
         // *** End programmer edit section *** (Статус.Куплен CustomAttributes)
+        [Caption("Куплен")]
         Куплен,
     }
 }

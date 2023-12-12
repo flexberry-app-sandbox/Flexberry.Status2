@@ -28,6 +28,7 @@ export default Controller.extend({
             link: 'i-i-s-status-2-самолет-l',
             caption: i18n.t('forms.application.sitemap.status-2.i-i-s-status-2-самолет-l.caption'),
             title: i18n.t('forms.application.sitemap.status-2.i-i-s-status-2-самолет-l.title'),
+            icon: 'tags',
             children: null
           }]
         }
